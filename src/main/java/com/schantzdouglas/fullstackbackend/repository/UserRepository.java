@@ -1,8 +1,8 @@
-package repository;
+package com.schantzdouglas.fullstackbackend.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import model.User;
+import com.schantzdouglas.fullstackbackend.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
