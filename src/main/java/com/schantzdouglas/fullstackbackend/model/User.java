@@ -20,7 +20,15 @@ public class User {
 	private String email;
 	
 	public User() {
+	}		
+
+	public User(String username, String name, String email) {
+		this.username = username;
+		this.name = name;
+		this.email = email;
 	}
+
+
 
 	public Long getId() {
 		return id;
